@@ -65,3 +65,23 @@ h1 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
+.titulo-pagina-sobre {
+  min-height: 30vh;
+  font-weight: bolder;
+}
+.texto-pagina-sobre {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: -20px;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color:#e93d50;
+}
+footer {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 60px;
+}
